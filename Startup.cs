@@ -18,6 +18,7 @@ namespace TickerBackgroundChannel
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddHostedService<PricingBackgroundService>();
+            services.AddSingleton<IPricingGenerator, PricingGenerator>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
