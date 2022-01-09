@@ -1,1 +1,1 @@
-# Ticker Backgroung Service Interaction with Channel
+## Ticker Background Service Interaction with Channel
